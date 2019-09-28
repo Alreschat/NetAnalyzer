@@ -1,0 +1,15 @@
+listeners:
+    default:
+        max-connections: 50000
+        type: tcp
+    my-tcp-1:
+        bind: 0.0.0.0:1883
+        max-connections: 1000
+    my-ws-1:
+        bind: 0.0.0.0:8080
+        type: ws
+timeout-disconnect-delay: 2
+auth:
+    plugins: ['auth.anonymous']
+    allow-anonymous: true
+    password-file: /passwords.txt
