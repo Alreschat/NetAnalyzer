@@ -21,4 +21,4 @@ MQTT_Ping/Report_Topic = Topics for pinging and reporting.
 For most purposes it is enough to enter server ip and alternating roles on two uPs.
 5) Start MQTT_Client.
 
-A foo.csv file should be created with 3 columns, # of ping, and two delays. Second column is the delay between two uPs, second is the RTT between broker and uP.
+A foo.csv file should be created with 3 columns, # of ping, and two delays. Second column is the delay between two uPs, third is the RTT between broker and uP.
